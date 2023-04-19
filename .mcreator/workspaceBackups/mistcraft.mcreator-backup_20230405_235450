@@ -1,0 +1,123 @@
+{
+  "mod_elements": [
+    {
+      "name": "LordRuler",
+      "type": "livingentity",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lord_ruler",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/mistcraft/models/item/lord_ruler_spawn_egg.json",
+          "src/main/java/net/mcreator/mistcraft/client/renderer/LordRulerRenderer.java",
+          "src/main/java/net/mcreator/mistcraft/entity/LordRulerEntity.java"
+        ]
+      },
+      "path": "~/Mobs"
+    },
+    {
+      "name": "Inquisitor",
+      "type": "livingentity",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "inquisitor",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/mistcraft/models/item/inquisitor_spawn_egg.json",
+          "src/main/java/net/mcreator/mistcraft/entity/InquisitorEntity.java",
+          "src/main/java/net/mcreator/mistcraft/client/renderer/InquisitorRenderer.java",
+          "src/main/resources/data/mistcraft/forge/biome_modifier/inquisitor_biome_modifier.json"
+        ]
+      },
+      "path": "~/Mobs"
+    },
+    {
+      "name": "Coinbag",
+      "type": "rangeditem",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "coinbag",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/mistcraft/models/item/coinbag.json",
+          "src/main/java/net/mcreator/mistcraft/item/CoinbagItem.java",
+          "src/main/java/net/mcreator/mistcraft/entity/CoinbagEntity.java"
+        ]
+      },
+      "path": "~/Items"
+    },
+    {
+      "name": "Cloakprueba",
+      "type": "animatedarmor",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cloakprueba",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/mistcraft/item/model/CloakpruebaModel.java",
+          "src/main/resources/assets/mistcraft/models/item/cloakprueba_helmet.json",
+          "src/main/java/net/mcreator/mistcraft/client/renderer/CloakpruebaArmorRenderer.java",
+          "src/main/java/net/mcreator/mistcraft/item/CloakpruebaItem.java"
+        ]
+      },
+      "path": "~/Mobs"
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "item.mistcraft.cloakprueba_boots": "Cloakprueba Boots",
+      "entity.mistcraft.lord_ruler": "Lord Ruler",
+      "entity.mistcraft.inquisitor": "Inquisitor",
+      "item.mistcraft.coinbag": "Coinbag",
+      "item.mistcraft.inquisitor_spawn_egg": "Inquisitor Spawn Egg",
+      "item.mistcraft.cloakprueba_helmet": "Cloakprueba Helmet",
+      "item.mistcraft.cloakprueba_chestplate": "Cloakprueba Body",
+      "item.mistcraft.lord_ruler_spawn_egg": "Lord Ruler Spawn Egg",
+      "item.mistcraft.cloakprueba_leggings": "Cloakprueba Leggings"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": [
+      {
+        "name": "Mobs",
+        "children": []
+      },
+      {
+        "name": "Configs",
+        "children": []
+      },
+      {
+        "name": "Items",
+        "children": []
+      }
+    ]
+  },
+  "workspaceSettings": {
+    "modid": "mistcraft",
+    "modName": "Mistcraft",
+    "version": "1.0.0",
+    "author": "D, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Academic Free License v3.0",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [
+      "curios_api",
+      "geckolib"
+    ],
+    "currentGenerator": "forge-1.19.2",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
+    "modElementsPackage": "net.mcreator.mistcraft",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202300110610
+}
