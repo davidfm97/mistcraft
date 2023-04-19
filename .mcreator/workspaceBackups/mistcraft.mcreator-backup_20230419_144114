@@ -32,22 +32,6 @@
         ]
       },
       "path": "~/Mobs"
-    },
-    {
-      "name": "Coinbag",
-      "type": "rangeditem",
-      "sortid": 3,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "coinbag",
-      "metadata": {
-        "files": [
-          "src/main/resources/assets/mistcraft/models/item/coinbag.json",
-          "src/main/java/net/mcreator/mistcraft/item/CoinbagItem.java",
-          "src/main/java/net/mcreator/mistcraft/entity/CoinbagEntity.java"
-        ]
-      },
-      "path": "~/Items"
     }
   ],
   "variable_elements": [],
@@ -56,7 +40,6 @@
     "en_us": {
       "entity.mistcraft.lord_ruler": "Lord Ruler",
       "entity.mistcraft.inquisitor": "Inquisitor",
-      "item.mistcraft.coinbag": "Coinbag",
       "item.mistcraft.inquisitor_spawn_egg": "Inquisitor Spawn Egg",
       "item.mistcraft.lord_ruler_spawn_egg": "Lord Ruler Spawn Egg"
     }
