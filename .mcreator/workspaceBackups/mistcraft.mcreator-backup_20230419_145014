@@ -32,53 +32,16 @@
         ]
       },
       "path": "~/Mobs"
-    },
-    {
-      "name": "Coinbag",
-      "type": "rangeditem",
-      "sortid": 3,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "coinbag",
-      "metadata": {
-        "files": [
-          "src/main/resources/assets/mistcraft/models/item/coinbag.json",
-          "src/main/java/net/mcreator/mistcraft/item/CoinbagItem.java",
-          "src/main/java/net/mcreator/mistcraft/entity/CoinbagEntity.java"
-        ]
-      },
-      "path": "~/Items"
-    },
-    {
-      "name": "Cloakprueba",
-      "type": "animatedarmor",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "cloakprueba",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/mistcraft/item/model/CloakpruebaModel.java",
-          "src/main/resources/assets/mistcraft/models/item/cloakprueba_helmet.json",
-          "src/main/java/net/mcreator/mistcraft/client/renderer/CloakpruebaArmorRenderer.java",
-          "src/main/java/net/mcreator/mistcraft/item/CloakpruebaItem.java"
-        ]
-      },
-      "path": "~/Mobs"
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
     "en_us": {
-      "item.mistcraft.cloakprueba_boots": "Cloakprueba Boots",
       "entity.mistcraft.lord_ruler": "Lord Ruler",
       "entity.mistcraft.inquisitor": "Inquisitor",
-      "item.mistcraft.coinbag": "Coinbag",
       "item.mistcraft.inquisitor_spawn_egg": "Inquisitor Spawn Egg",
-      "item.mistcraft.cloakprueba_helmet": "Cloakprueba Helmet",
-      "item.mistcraft.cloakprueba_chestplate": "Cloakprueba Body",
-      "item.mistcraft.lord_ruler_spawn_egg": "Lord Ruler Spawn Egg",
-      "item.mistcraft.cloakprueba_leggings": "Cloakprueba Leggings"
+      "item.mistcraft.lord_ruler_spawn_egg": "Lord Ruler Spawn Egg"
     }
   },
   "foldersRoot": {
